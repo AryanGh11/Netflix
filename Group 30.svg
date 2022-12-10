@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_30" data-name="Group 30" transform="translate(-34 -174)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="20" height="20" transform="translate(34 174)" fill="none"/>
+    <path id="bars-solid" d="M0,65.1A1.119,1.119,0,0,1,1.143,64H14.857a1.1,1.1,0,1,1,0,2.19H1.143A1.119,1.119,0,0,1,0,65.1Zm0,5.476a1.119,1.119,0,0,1,1.143-1.1H14.857a1.1,1.1,0,1,1,0,2.19H1.143A1.119,1.119,0,0,1,0,70.571Zm16,5.476a1.119,1.119,0,0,1-1.143,1.1H1.143a1.1,1.1,0,1,1,0-2.19H14.857A1.119,1.119,0,0,1,16,76.048Z" transform="translate(36 113.429)" fill="#feeded"/>
+  </g>
+</svg>

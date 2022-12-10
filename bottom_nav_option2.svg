@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="43" viewBox="0 0 34 43">
+    <g data-name="Bottom - nav option">
+        <g data-name="Group 54">
+            <path data-name="Rectangle 103" transform="translate(5)" style="fill:none" d="M0 0h24v24H0z"/>
+            <text transform="translate(34 38)" style="fill:#feeded;font-size:11px;font-family:Shabnam-Medium-FD,Shabnam FD"><tspan x="-33.435" y="0">جستجو</tspan></text>
+            <g data-name="Group 58">
+                <path data-name="Rectangle 104" transform="translate(5)" style="fill:none" d="M0 0h24v24H0z"/>
+                <g data-name="Group 55">
+                    <g data-name="Ellipse 111" transform="translate(7 2.233)" style="stroke:#feeded;fill:none">
+                        <circle cx="8.5" cy="8.5" r="8.5" style="stroke:none"/>
+                        <circle cx="8.5" cy="8.5" r="8" style="fill:none"/>
+                    </g>
+                    <path data-name="Line 41" transform="translate(21.418 16.186)" style="stroke:#feeded;fill:none" d="m0 0 5.581 5.581"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
