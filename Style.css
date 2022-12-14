@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        width: 20.5rem;
+        width: 100%;
         color: #FEEDED;
         font-size: 14px;
         padding: .5rem;
@@ -94,36 +94,67 @@
         margin: .5rem 0.5rem 1rem 0;
         border-radius: 12px;
     }
-    .card-m1 {
-        background: url(https://m.media-amazon.com/images/M/MV5BYzY4Mjg2NjAtMTQyYi00OTBlLWE2MmItNjRiOTM5M2UxNzQzXkEyXkFqcGdeQXVyMTIzMTMxNzc4._V1_.jpg);
-        background-size: cover;
-    }
-    .card-m2 {
-        background: url(https://www.theilluminerdi.com/wp-content/uploads/2022/09/black-adam-heroes.jpg);
-        background-size: cover;
+
+    .card-s1 img, .card-m1 img, .card-m2 img, .card-m3 img, .card-m4 img, .card-m5 img, .card-m6 img {
+        border-radius: 12px;
+        transition: .5s; 
     }
 
-    .card-m3 {
-        background: url(https://upload.wikimedia.org/wikipedia/en/a/a8/The_Noel_Diary_poster.jpg);
-        background-size: cover;
+    .card-s1 p, .card-m1 p, .card-m2 p, .card-m3 p, .card-m4 p, .card-m5 p {
+        height: 1rem;
+        text-align: center;
+        white-space:nowrap;
+        opacity: 0;
+        transition: .5s;
     }
 
-    .card-m4 {
-        background: url(https://m.media-amazon.com/images/M/MV5BOWQzMDc5OTMtMjFiMy00M2I3LWIyZWMtODM4NTRhMGI2ZTRkXkEyXkFqcGdeQXVyNDAxNzcyNw@@._V1_FMjpg_UX1000_.jpg);
-        background-size: cover;
+    .card-m1 p {
+        position: relative;
+        left: -92.5%;
+        top: 50%;
     }
 
-    .card-m5 {
-        background: url(https://m.media-amazon.com/images/M/MV5BYzc3NjZiNzctMzA1Zi00MWI5LTgxM2ItY2I1ZWFhZjFjZjAyXkEyXkFqcGdeQXVyMTM3MzAxODg0._V1_FMjpg_UX1000_.jpg);
-        background-size: cover;
+    .card-m2 p {
+        position: relative;
+        left: -90%;
+        top: 50%;
     }
 
-    .card-s1 {
-        background: url(https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg);
-        background-size: cover;
+    .card-m3 p {
+        position: relative;
+        left: -96%;
+        top: 50%;
     }
+
+    .card-m4 p {
+        position: relative;
+        left: -50%;
+        top: 50%;
+    }
+
+    .card-m4 p {
+        position: relative;
+        left: -80%;
+        top: 50%;
+    }
+
+    .card-m5 p {
+        position: relative;
+        left: -80%;
+        top: 50%;
+    }
+
+    .card-s1:hover p, .card-m1:hover p, .card-m2:hover p, .card-m3:hover p, .card-m4:hover p, .card-m5:hover p {
+        opacity: 100%;
+    }
+
+    .card-s1:hover img, .card-m1:hover img, .card-m2:hover img, .card-m3:hover img, .card-m4:hover img, .card-m5:hover img {
+        filter: brightness(.3);
+        transform: scale(1.05);
+    }
+
     .card-s2 {
-        background: url(https://m.media-amazon.com/images/I/81XIwDyJ+oL.jpg);
+        background: url();
         background-size: cover;
     }
 
@@ -145,8 +176,13 @@
     
     .navbar {
         width: 100%;
+        background-color: #141414;
         height: 4.5rem;
+        overflow: hidden;
         position: fixed;
+        bottom: 0;
+        right: 0;
+
     }
 
     .nav-options {
@@ -155,12 +191,8 @@
         justify-content: space-between;
         align-self: center;
         padding: .75rem 1rem 1rem 1rem;
-        position: fixed;
-        bottom: 0%;
     }
 
-     
-
-        /* سر درست کردن منوی فیکس پایین هستم! */
+    
     
 }
